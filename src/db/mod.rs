@@ -1,7 +1,4 @@
 pub mod articles;
-pub mod comments;
-pub mod profiles;
-pub mod users;
 
 use dotenv::dotenv;
 use std::ops::Deref;

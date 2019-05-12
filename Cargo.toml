@@ -1,7 +1,7 @@
 [package]
 authors = ["TatriX <tatrics@gmail.com>"]
-name = "realworld"
-version = "0.3.0"
+name = "book-master"
+version = "0.0.1"
 edition = "2018"
 
 [dependencies]

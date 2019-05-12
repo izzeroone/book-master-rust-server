@@ -1,4 +1,4 @@
-use crate::models::article::{Article, ArticleJson};
+use crate::models::book::{Article, ArticleJson};
 use crate::models::user::User;
 use crate::schema::articles;
 use crate::schema::favorites;
@@ -15,7 +15,7 @@ const SUFFIX_LEN: usize = 6;
 const DEFAULT_LIMIT: i64 = 20;
 
 #[derive(Insertable)]
-#[table_name = "articles"]
+#[table_name = "book"]
 struct NewArticle<'a> {
     title: &'a str,
     description: &'a str,
